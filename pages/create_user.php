@@ -1,5 +1,5 @@
 <?php
-// 1. Проверяем авторизацию
+// 1. Проверяем авторизацию что то там
 session_start();
 if (!isset($_SESSION['user'])) {
     header('Location: /pages/login.php');
